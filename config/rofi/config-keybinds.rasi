@@ -1,0 +1,56 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Main Config - For Keybinds generation */
+
+@import "~/.config/rofi/config.rasi"  
+
+
+/* ---- Mainbox ---- */
+mainbox {
+  children:
+    [ "inputbar", "message", "listview"];
+}
+
+/* ---- Entry ---- */
+entry {
+  expand: true;
+  placeholder: " 🧮 Search Keybinds";
+}
+
+/* ---- Listview ---- */
+listview {
+  columns: 2;
+  lines: 8;
+  fixed-height: false;
+  scrollbar: true;
+  spacing: 6px;
+  cycle: true;
+}
+
+window {
+  width: 90%;
+  height: inherit;
+}
+
+/* ---- Elements ---- */
+inputbar {
+    enabled:                     true;
+    padding:                     10px 10px 20px 10px;
+    margin:                      10px;
+    background-color:            transparent;
+    border-radius:               25px;
+    orientation:                 horizontal;
+}
+element {
+  orientation: horizontal;
+}
+
+element-icon {
+  	size: 0%;
+}
+
+element-text {
+    horizontal-align: 0.0;
+    vertical-align: 0.5;
+    margin: 0px;
+    padding: 0px;
+}

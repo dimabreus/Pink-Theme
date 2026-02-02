@@ -1,0 +1,31 @@
+@define-color base         #1e1a24;
+@define-color mantle       #1a1620;
+@define-color crust        #15121b;
+@define-color theme_base_color #15121b;
+
+@define-color text         #f0d9e8;
+@define-color subtext0     #dcb7d8;
+@define-color subtext1     #e3c4df;
+
+@define-color surface0     #2a2033;
+@define-color surface1     #352842;
+@define-color surface2     #3e2d4d;
+
+@define-color overlay0     #6a5075;
+@define-color overlay1     #7d5f89;
+@define-color overlay2     #91739d;
+
+@define-color pink         #f5c2e7;
+@define-color rosewater    #f8dbef;
+@define-color flamingo     #f0c6e0;
+@define-color mauve        #cba6f7;
+@define-color maroon       #eba0ac;
+@define-color red          #f38ba8;
+@define-color peach        #fab387;
+@define-color lavender     #b4befe;
+@define-color blue         #89b4fa;
+@define-color green        #a6e3a1;
+@define-color yellow       #f9e2af;
+@define-color sapphire     #74c7ec;
+@define-color sky            #89dceb;
+@define-color teal           #94e2d5;

@@ -1,0 +1,51 @@
+/* ---- 💫 https://github.com/JaKooLit 💫 ---- */
+/* Clipboard Config - Clipboard */
+
+@import "~/.config/rofi/config.rasi"  
+
+/* ---- Window ---- */
+window {
+  width: inherit;
+  height: inherit;
+}
+
+/* ---- Configuration ---- */
+configuration {
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+/* ---- Mainbox ---- */
+mainbox {
+  children: [ "message", "listview"];
+  padding: 10px;
+}
+
+/* ---- Listview (СЕТКА) ---- */
+listview {
+  columns: 4;   /* Две колонки (карточки) */
+  lines: 3;     /* Количество рядов */
+  spacing: 5px; /* Расстояние между карточками */
+  cycle: true;
+  fixed-height: false;
+}
+
+/* ---- Elements (КАРТОЧКИ) ---- */
+element {
+  orientation: vertical; /* Картинка сверху, текст снизу */
+  padding: 10px;
+  spacing: 1px;
+  border-radius: 10px;
+}
+
+/* Картинка в карточке */
+element-icon {
+  size: 10em;     /* Крупная картинка */
+  horizontal-align: 0.5; /* Центрирование по горизонтали */
+  vertical-align: 0.5;
+}
+
+/* Текст в карточке */
+element-text {
+  vertical-align: 0.5;
+  horizontal-align: 0.5; /* Текст по центру */
+}
