@@ -4,5 +4,5 @@ if [ ! -d "$HOME/.oh-my-zsh" ]; then
     sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 fi
 
-cp -r zsh/themes/* ~/.oh-my-zsh/custom/themes/
+cp zsh/themes/* ~/.oh-my-zsh/themes/
 cp zsh/zshrc ~/.zshrc
