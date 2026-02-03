@@ -29,6 +29,8 @@ sleep 1
 sleep 2
 /usr/lib/xdg-desktop-portal &
 
+quickshell -d
+
 # Check if a marker file exists.
 if [ ! -f "$HOME/.config/hypr/.initial_startup_done" ]; then
     sleep 1
