@@ -43,7 +43,7 @@ if [[ $NEED_INSTALL_PACKAGES == "true" ]]; then
     else
         echo "❌  install-packages.sh not found"
         exit 1
-    if
+    fi
 fi
 
 # 2. Run backup
